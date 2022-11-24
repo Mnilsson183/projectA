@@ -1,0 +1,19 @@
+pop-up update
+
+A city building game based on the concepts of economy and of population appeasment 
+governnment is a authoratarian
+
+*/Key
+	**What is it**
+	--Later update--
+	??maybe??
+*/
+Popups
+	**Challanges to the experiance**
+	pandemic 
+	flood
+	dry season
+	early winter
+	like 30-40 things
+likability
+	decreases by responses to actions

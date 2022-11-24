@@ -1,0 +1,18 @@
+sceince update
+
+A city building game based on the concepts of economy and of population appeasment 
+governnment is a authoratarian
+
+*/Key
+	**What is it**
+	--Later update--
+	??maybe??
+*/
+Popups
+	--new tech--
+	more pop-ups
+	benifits such as more money or decreaded mortality
+mortality rate
+	per quarter what percentage of population do you lose
+	reduced by tech
+	affects gravity and likability
