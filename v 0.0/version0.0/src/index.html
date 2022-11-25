@@ -6,14 +6,27 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
+    <script defer src="./js/render.js"></script>
     <div class="taxDiv">
-      <div class="tax">tax percent</div>
-      <div class="tax">expected tax</div>
+      <div class="tax" id="tax">
+        tax percent
+        <div class="number">0</div>
+      </div>
+      <div class="tax" id="expectedTax">
+        expected tax
+        <div class="number">0</div>
+      </div>
     </div>
     <div class="day">date starts at 0</div>
     <div class="salesTaxDiv">
-      <div class="tax">sales tax</div>
-      <div class="tax">expected sales</div>
+      <div class="tax">
+        sales tax
+        <div class="number">0</div>
+      </div>
+      <div class="tax">
+        expected sales
+        <div class="number">0</div>
+      </div>
     </div>
     <div class="educationDiv">education level</div>
     <div class="mainObjects">
@@ -23,7 +36,10 @@
 
     <div class="actions">
       <button class="build">Build</button>
-      <div class="money">money</div>
+      <div class="money">
+        money
+        <div></div>
+      </div>
       <button class="next">next quarter</button>
     </div>
   </body>

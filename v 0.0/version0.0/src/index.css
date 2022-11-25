@@ -22,6 +22,7 @@ body {
   border: solid black 1px;
   display: inline-block;
   margin-left: 90%;
+  padding: 10px 20px;
 }
 .salesTaxDiv{
   margin-left: 2%;
@@ -43,7 +44,7 @@ body {
   margin-top: 30px;
   margin-left: 5%;
   margin-right: 5%;
-  height: 500px;
+  height: 450px;
 }
 .item{
   border: solid black 1px;
@@ -70,4 +71,9 @@ body {
   height: 100%;
   width: 100%;
 
+}
+.number{
+  font-size: 20px;
+  margin-top: 8px;
+  margin-left: 20px;
 }
