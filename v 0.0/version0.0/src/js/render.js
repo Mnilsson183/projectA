@@ -8,24 +8,35 @@ let houseDiv = document.getElementById("houses");
 let marketDiv = document.getElementById("markets");
 let moneyDiv = document.getElementById("money");
 
+
+let year = 0;
+let tax = 5;
+let expTax = '';
+let saleTax = 5;
+let expSaleTax = '';
+let education = 0;
+let house = 0;
+let market = 0;
+let money = 600;
+
 function renderTax(){
-    taxDiv.innerText = '0';
-    expTaxDiv.innerText = '0';
-    saleTaxDiv.innerText = '0';
-    expSaleTaxDiv.innerText = '0';
+    taxDiv.innerText = tax + '%';
+    expTaxDiv.innerText = expTax;
+    saleTaxDiv.innerText = saleTax + '%';
+    expSaleTaxDiv.innerText = expSaleTax;
 }
 function renderDate(){
-    dateDiv.innerText = '0';
+    dateDiv.innerText =  'November' + ' 11, ' + year;
 }
 function renderEducation(){
-    educationDiv.innerText = '0';
+    educationDiv.innerText = education;
 }
 function renderItems(){
-    houseDiv.innerText = '0';
-    marketDiv.innerText = '0';
+    houseDiv.innerText = house;
+    marketDiv.innerText = market;
 }
 function renderMoney(){
-    moneyDiv.innerText = '0';
+    moneyDiv.innerText = money;
 }
 function render(){
     renderTax();
@@ -34,3 +45,4 @@ function render(){
     renderItems();
     renderMoney();
 }
+render();

@@ -23,3 +23,7 @@ Incomes
 Starting
 	2 houses
 	1 market
+
+
+notes
+	move to yearly system for now

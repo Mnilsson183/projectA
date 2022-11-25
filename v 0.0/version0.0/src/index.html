@@ -7,6 +7,8 @@
   </head>
   <body>
     <script defer src="./js/render.js"></script>
+    <script defer src="./js/systems.js"></script>
+
     <div class="taxDiv">
       <div class="tax">
         tax percent
@@ -30,6 +32,7 @@
     <div class="educationDiv">
       education level
       <div class="number" id="education">0</div>
+      <button onclick="buyEducation()">Increase</button>
     </div>
     <div class="mainObjects">
       <div class="item">
@@ -47,12 +50,19 @@
         money
         <div class="number" id="money">0</div>
       </div>
-      <button class="build">Build</button>
+      <div class="build">
+        <div>
+          <button class="make" onclick="buyHouse()">House</button>
+        </div>
+        <div>
+          <button class="make" onclick="buyMarket()">Market</button>
+        </div>
+      </div>
       <div class="day">
         date
         <div class="number" id="date">0</div>
       </div>
-      <button class="next">next quarter</button>
+      <button class="next" onclick="nextYear()">next quarter</button>
     </div>
   </body>
 </html>

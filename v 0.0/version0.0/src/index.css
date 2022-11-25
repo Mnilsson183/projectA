@@ -32,7 +32,7 @@ body {
   border: solid black 1px;
   margin-left: 2%;
   margin-top: 20px;
-  width: 100px;
+  width: 110px;
 }
 .mainObjects{
   border: solid black 1px;
@@ -74,4 +74,8 @@ body {
   font-size: 20px;
   margin-top: 8px;
   margin-left: 20px;
+}
+.make{
+  height: 30px;
+  width: 100%;
 }
