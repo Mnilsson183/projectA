@@ -12,6 +12,7 @@ governnment is a authoratarian
 buildings 
 	appeasment structures - inprove likability
 	Houses - dont fill themself gravity influences who joins
+	replace income way with people
 Actions
 	Change tax levels - increase money at expense of polulation likeability 
 likability
