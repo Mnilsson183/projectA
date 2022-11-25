@@ -1,0 +1,53 @@
+A city building game based on the concepts of economy and of population appeasment 
+governnment is a authoratarian
+??made in electron??
+
+*/Key
+	**What is it**
+	--Later update--
+	??maybe??
+*/
+
+buildings 
+	Houses - more money and people
+	Markets - Money
+	appeasment structures - inprove likability
+	Education - increases income
+	--military force 2.0--
+Actions
+	Change tax levels - increase money at expense of polulation likeability 
+	build buildings - cost and reward
+Popups
+	**Challanges to the experiance**
+	pandemic 
+	flood
+	dry season
+	early winter
+	--new tech 0.2--
+likability
+	**How liked in you city you are**
+	can be improved over time 
+	decreases by responses to actions
+	represented by percentage
+	if at 0 you fail
+gravity
+	**How interested people are to come to your city**
+	--influenced by outside decisions 2.0--
+gameplay
+	Quarterly system (3 month skip)
+	you have money
+	you might have some sort of actions limiter
+	mortality rate
+Incomes
+	Tax revenue
+	sales tax
+Starting
+	2 houses
+	1 market
+Later inclusions
+0.1	be able to select time period
+0.2	Include sceince and development
+1.0	??Make in electron??
+1.1	Be able to select government type	
+2.0	other governments making alliances and war - effects gravity likability actions and buildings
+
