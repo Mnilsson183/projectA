@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Project</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <script defer src="./js/render.js"></script>
+    <script defer src="./js/systems.js"></script>
+
+    <div class="taxDiv">
+      <div class="tax">
+        tax percent
+        <div class="number" id="tax">0</div>
+      </div>
+      <div class="tax">
+        expected tax
+        <div class="number" id="expectedTax">0</div>
+      </div>
+    </div>
+    <div class="salesTaxDiv">
+      <div class="tax">
+        sales tax
+        <div class="number" id="saleTax">0</div>
+      </div>
+      <div class="tax">
+        expected sales
+        <div class="number" id="expSaleTax">0</div>
+      </div>
+    </div>
+    <div class="educationDiv">
+      education level
+      <div class="number" id="education">0</div>
+      <button onclick="buyEducation()">Increase</button>
+    </div>
+    <div class="mainObjects">
+      <div class="item">
+        Houses
+        <div class="number" id="houses">0</div>
+      </div>
+      <div class="item">
+        Markets
+        <div class="number" id="markets">0</div>
+      </div>
+    </div>
+
+    <div class="actions">
+      <div class="money">
+        money
+        <div class="number" id="money">0</div>
+      </div>
+      <div class="build">
+        <div>
+          <button class="make" onclick="buyHouse()">House</button>
+        </div>
+        <div>
+          <button class="make" onclick="buyMarket()">Market</button>
+        </div>
+      </div>
+      <div class="day">
+        date
+        <div class="number" id="date">0</div>
+      </div>
+      <button class="next" onclick="nextYear()">next quarter</button>
+    </div>
+  </body>
+</html>
