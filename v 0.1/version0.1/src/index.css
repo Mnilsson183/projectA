@@ -33,6 +33,7 @@ body {
   margin-left: 2%;
   margin-top: 20px;
   width: 110px;
+  display: inline-block;
 }
 .mainObjects{
   border: solid black 1px;

@@ -14,7 +14,7 @@ buildings
 	Houses - dont fill themself gravity influences who joins
 	replace income way with people
 Actions
-	Change tax levels - increase money at expense of polulation likeability 
+	Change tax levels 
 likability
 	**How liked in you city you are**
 	can be improved over time 
@@ -27,3 +27,6 @@ gravity
 gameplay
 	you might have some sort of actions limiter
 	People counter
+TODO 
+	add rounding system for taxes and stuff
+	connect tax changes to likability

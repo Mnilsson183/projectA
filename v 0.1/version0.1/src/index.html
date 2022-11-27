@@ -34,6 +34,10 @@
       <div class="number" id="education">0</div>
       <button onclick="buyEducation()">Increase</button>
     </div>
+    <div class="educationDiv">
+      population
+      <div class="number" id="pop">0</div>
+    </div>
     <div class="mainObjects">
       <div class="item">
         Houses
@@ -49,6 +53,14 @@
       <div class="money">
         money
         <div class="number" id="money">0</div>
+      </div>
+      <div>
+        <button onclick="taxChange(1)">+</button>
+        <button onclick="taxChange(-1)">-</button>
+      </div>
+      <div>
+        <button onclick="taxSaleChange(1)">S+</button>
+        <button onclick="taxSaleChange(-1)">S-</button>
       </div>
       <button onclick="buyLike()">appease</button>
       <div class="likability">

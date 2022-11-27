@@ -1,5 +1,7 @@
 function nextYear(){
     year++;
+    calcPopMax();
+    calcPopIncrease();
     returnMoney();
     checkLike();
     render();
@@ -37,13 +39,31 @@ function buyLike(){
         renderMoney();
     }
 }
+function taxChange(i){
+    tax += i;
+    renderTax();
+}
+function taxSaleChange(i){
+    saleTax += i;
+    renderTax();
+}
 function calcTax(){
-    expTax = ((tax * (0.25 * education) / 100) + 1) * (house * 3);
+    expTax = ((tax / 100) + 1 + (0.25 * education)) * (population);
     renderTax();
 }
 function calcSaleTax(){
-    expSaleTax = ((saleTax * (0.25 * education)  / 100) + 1) * (market * house);
+    expSaleTax = ((saleTax / 100) + 1 + (0.25 * education)) * (market * population);
     renderTax();
+}
+function calcPopMax(){
+    popMax = house * 4;
+}
+function calcPopIncrease(){
+    population = population + gravity
+    if(population > popMax){
+        population = popMax;
+    }
+    renderPopulation();
 }
 function returnMoney(){
     calcTax();
@@ -53,7 +73,7 @@ function returnMoney(){
 }
 function checkLike(){
     if(like <= 0){
-        prompt("You are disliked");
+        document.body.innerText = "You are disliked big L";
         reset();
     }
 }

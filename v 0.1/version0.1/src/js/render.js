@@ -8,9 +8,13 @@ let houseDiv = document.getElementById("houses");
 let marketDiv = document.getElementById("markets");
 let moneyDiv = document.getElementById("money");
 let likeDiv = document.getElementById("like");
+let popDiv = document.getElementById("pop");
 
+
+let population = 0;
+let popMax = 0;
 let like = 50;
-let gravity = 1;
+let gravity = 3;
 let year = 0;
 let tax = 5;
 let expTax = '';
@@ -43,6 +47,9 @@ function renderMoney(){
 function renderPopularity(){
     likeDiv.innerText = like;
 }
+function renderPopulation(){
+    popDiv.innerText = population;
+}
 function render(){
     renderTax();
     renderDate();
@@ -63,5 +70,6 @@ function reset(){
     house = 0;
     market = 0;
     money = 600;
+    population = 0;
 }
 render();
