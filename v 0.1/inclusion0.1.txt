@@ -26,3 +26,4 @@ gravity
 	deafalt for now
 gameplay
 	you might have some sort of actions limiter
+	People counter

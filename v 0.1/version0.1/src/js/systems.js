@@ -1,6 +1,7 @@
 function nextYear(){
     year++;
     returnMoney();
+    checkLike();
     render();
 }
 function buyHouse(){
@@ -27,6 +28,15 @@ function buyEducation(){
         renderMoney();
     }
 }
+function buyLike(){
+    if(money >= 200){
+        like += 25;
+        money -= 200;
+        checkLikeOverflow();
+        renderPopularity();
+        renderMoney();
+    }
+}
 function calcTax(){
     expTax = ((tax * (0.25 * education) / 100) + 1) * (house * 3);
     renderTax();
@@ -40,4 +50,16 @@ function returnMoney(){
     calcSaleTax();
     earned = expSaleTax + expTax;
     money += earned;
+}
+function checkLike(){
+    if(like <= 0){
+        prompt("You are disliked");
+        reset();
+    }
+}
+function checkLikeOverflow(){
+    if(like > 100){
+        like = 100;
+        money += 200;
+    }
 }
