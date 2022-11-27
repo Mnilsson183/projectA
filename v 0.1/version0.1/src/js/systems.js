@@ -41,11 +41,17 @@ function buyLike(){
 }
 function taxChange(i){
     tax += i;
+    like -= 4 * i;
+    renderPopularity();
     renderTax();
+    checkLike();
 }
 function taxSaleChange(i){
     saleTax += i;
+    like -= 6 * i;
+    renderPopularity();
     renderTax();
+    checkLike();
 }
 function calcTax(){
     expTax = ((tax / 100) + 1 + (0.25 * education)) * (population);

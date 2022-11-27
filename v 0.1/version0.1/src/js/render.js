@@ -27,9 +27,9 @@ let money = 600;
 
 function renderTax(){
     taxDiv.innerText = tax + '%';
-    expTaxDiv.innerText = expTax;
+    expTaxDiv.innerText = Math.round(expTax);
     saleTaxDiv.innerText = saleTax + '%';
-    expSaleTaxDiv.innerText = expSaleTax;
+    expSaleTaxDiv.innerText = Math.round(expSaleTax);
 }
 function renderDate(){
     dateDiv.innerText =  'November' + ' 11, ' + year;
@@ -42,7 +42,7 @@ function renderItems(){
     marketDiv.innerText = market;
 }
 function renderMoney(){
-    moneyDiv.innerText = money;
+    moneyDiv.innerText = Math.round(money);
 }
 function renderPopularity(){
     likeDiv.innerText = like;
